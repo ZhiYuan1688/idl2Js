@@ -1,6 +1,6 @@
 {
   "name": "idl2js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "将 Anchor IDL 转换为纯 JavaScript SDK，无需 TypeScript 编译",
   "main": "src/index.js",
   "type": "module",
