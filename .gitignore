@@ -1,0 +1,21 @@
+# 忽略 node 模块与依赖缓存
+node_modules/
+package-lock.json
+yarn.lock
+
+# 编译产物
+dist/
+build/
+*.class
+*.o
+*.exe
+
+# 临时文件
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 私密配置
+.env
+*.key

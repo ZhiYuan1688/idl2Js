@@ -1,0 +1,36 @@
+{
+  "name": "idl2js",
+  "version": "1.0.3",
+  "description": "将 Anchor IDL 转换为纯 JavaScript SDK，无需 TypeScript 编译",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "idl2js": "bin/idl2js.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "anchor",
+    "solana",
+    "idl",
+    "sdk",
+    "generator"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "anchor-client-gen": "^0.28.1",
+    "chalk": "^5.3.0",
+    "commander": "^13.1.0",
+    "esbuild": "^0.25.4",
+    "figlet": "^1.8.1",
+    "globby": "^14.1.0",
+    "inquirer": "^12.6.1",
+    "log-symbols": "^7.0.0",
+    "ora": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
